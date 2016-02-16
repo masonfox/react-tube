@@ -46,4 +46,4 @@ class App extends Component {
   }
 }
 
-ReactDOM.render(<App />, document.querySelector('.holder'));
+ReactDOM.render(<App />, document.getElementById('holder'));
